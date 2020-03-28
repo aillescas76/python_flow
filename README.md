@@ -5,7 +5,7 @@ The objetive of this "*Framework*"/methodology is to standarize the application 
 
 ## Classes and composition
 
-* **Flow**: The base object, every functionality should be encapsulated in a Flow subclass, all the orquestation between all the other classes will start with the call to `Flow.execute()`.
+* **Flow**: The base object, every functionality should be encapsulated in a Flow subclass, all the orquestation between all the other classes will start with the call to `Flow.start()`.
 * **Recolector**: Gathers all the information related to the flow.
 * **DataView**: It is the result of the recolector and will contain all the data used in the Flow process will be responsible of the sharing of information between all the components.
 * **Executor**: Do whatever processing is needed with the data gathered by the Recolector. It is composed of a series of Steps. They should be declarative in an executor you can only declare a list of Steps (they will be executed one after the other) or a set of Steps (the execution order is not important).

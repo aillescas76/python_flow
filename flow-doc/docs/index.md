@@ -25,4 +25,3 @@ The objetive of this "*Framework*"/methodology is to standarize the application 
 * Automatic documentation and tests, it could generate diagrams and complex docs with the functionality of the Flows.
 * All the DB access is encapsulated in **Recolectors** and **Writers** making it easier to change the data layer.
 * The uniformity of code will make it really easy for anyone to familiarize thenselves with any new code.
-

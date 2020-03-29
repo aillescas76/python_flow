@@ -1,4 +1,4 @@
 class Recolector(object):
     @staticmethod
-    def recolect():
+    def recolect(initial_data):
         return {}

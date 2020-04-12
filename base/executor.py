@@ -18,3 +18,4 @@ class Executor(object):
         effects = []
         for step in chain(cls.step_list, cls.step_set):
             effects.extend(step.side_effects())
+        return effects
